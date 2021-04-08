@@ -1,5 +1,9 @@
 
    
+   head{
+    align-items: center;
+    justify-content: center;
+   }
    h1{
         color: indianred;
     }
@@ -7,8 +11,8 @@
         width: 400px;
     }
     #thirdDiv{
-        height: 600px;
-        width: 500px;
+        max-height: 300px;
+        max-width: 300px;
         background-color: lightsalmon;
         padding: 50px;
         border: 1px solid maroon;
@@ -17,3 +21,23 @@
         font-size: medium;
         margin: 50px;
     }
+    img{
+        height: 70px;
+        width: 90px;
+    }
+    body{
+        background-image: URL(https://www.solofondos.com/wp-content/uploads/2015/12/depositphotos_109561762-stock-photo-vintage-mint-green-wooden-background.jpg);
+    }
+    div{
+        align-items: center;
+        justify-content: center;
+    }
+    .flex-container {
+        display: flex;
+        height: 300px;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      
+ 
