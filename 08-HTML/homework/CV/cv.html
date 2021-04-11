@@ -23,28 +23,28 @@
         }
         body{
             position: relative;
+            background: rgb(255,250,145);
+            background: radial-gradient(circle, rgba(255,250,145,0.2665441176470589) 0%, rgba(210,173,255,1) 100%);
         }
         nav{
             height: 400px;
             width: 35%;
             align-items: center;
             margin-right: auto;
-            background-color: rgb(225, 222, 245);
             color:slategrey;
             position: absolute;
             top: 12.7%;
             left: 1em;
         }
         .hobbies{
-            height: 245px;
+            height: 300px;
             width: 35%;
             align-items: center;
             margin-right: auto;
-            background-color: rgb(225, 222, 245);
             color:slategrey;
             position: absolute;
-            top: 70%;
-            left: 1em;
+            top: 67%;
+            left:1em;
         }
         header .textos-header{
             font-size: xx-large;
@@ -53,7 +53,11 @@
             width: 100%;
             align-items: center;
             margin-left: auto;
-            background-color: rgb(108, 106, 233);
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(7,62,156,1) 45%, rgba(93,49,154,0) 100%, rgba(0,212,255,1) 100%);
+            color:whitesmoke;
+        }
+        #titulo{
             color:whitesmoke;
         }
         .column {
@@ -77,28 +81,27 @@
         .objetivos{
             height: 170px;
             width: 60%;
+            color:slategrey;
             align-items: center;
             margin-left: auto;
-            background-color: rgb(225, 222, 245);
-            color:slategrey;
         }
         .experiencias{
-            height: 890px;
+            height: 920px;
             width: 60%;
             align-items: center;
             margin-left: auto;
-            background-color: rgb(225, 222, 245);
             color:slategrey;
+
         }
         .formacion-academica{
             width: 35%;
             align-items: center;
             margin-left: auto;
-            background-color: rgb(225, 222, 245);
             color:slategrey;
             position: absolute;
-            top: 42%;
+            top: 40.5%;
             left: 1.7em;
+   
         }
         footer{
             display: flex;
@@ -106,9 +109,10 @@
             height: 130px;
             align-items: center;
             margin-block: auto;
-            background-color: rgb(108, 106, 233);
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 25%, rgba(7,62,156,1) 45%, rgba(93,49,154,0) 100%, rgba(0,212,255,1) 100%);
             color:whitesmoke;
-        }
+        }   
       </style>
     </head>
     <body>
@@ -118,7 +122,7 @@
                     <img src="../img/captura.JPG">
                 </div>
                 <div class="column">
-                    <h1>CV María José del Pino</h1>
+                    <h1 id="titulo">CV María José del Pino</h1>
                 </div>
             </section>
         </header>
@@ -142,7 +146,7 @@
                         técnica.
                         Trabajamos bajo metodología Agile, como herramienta de trackeo y seguimiento
                         de proyectos y documentamos en Confluence.</p>
-                    <h3>08.2019 - 09.2020| Mavha</h3>
+                    <h3>08.2019 - 09.2020 | Mavha</h3>
                     <h4>Scrum Master / Análisis funcional</h4>
                         <p>En Mavha estuve como Scrum Master en un proyecto de afiliación. Se trata del
                         mantenimiento evolutivo del producto de alta de afiliados. El mismo está desarrollado
@@ -198,17 +202,20 @@
 
             <div class="hobbies">
                 <h1>HOBBIES</h1>
-
+                    <h4><span class="icon-tree"></span>Disfrutar de la naturaleza</h4>   
+                    <h4><span class="icon-book"></span>Leer</h4>  
+                    <h4><span class="icon-aircraft"></span>Viajar</h4>
+                    <h4><span class="icon-air"></span>Actividades al aire libre como caminar, correr, andar en bici, etc.</h4>  
             </div>
             
             <footer class="footer">
                 <div class="columnas">
-                    <h2>Celular</h2>
-                    <p><span class= "icon-phone: before"></span>✆ 15-3356-9133</p>
-                    <h2>E-mail</h2>
-                    <P>@ majolet@gmail.com</P>
-                    <h2>LinkedIn</h2>
-                    <a href="#">https://www.linkedin.com/in/maria-jose-del-pino/</a>
+                    <h2><span class= "icon-phone"></span>Celular</h2>
+                    <p>15-3356-9133</p>
+                    <h2><span class="icon-mail"></span>E-mail</h2>
+                    <P></span>majolet@gmail.com</P>
+                    <h2><span class="icon-linkedin"></span>LinkedIn</h2>
+                    <a href="#">https://www.linkedin.com/in/maria-jose-del-pino//</a>
                 </div>
             </footer>
     </body>

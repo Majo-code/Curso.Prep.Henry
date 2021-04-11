@@ -297,6 +297,7 @@
 }
 .icon-air:before {
   content: "\e95a";
+  color: blue
 }
 .icon-aircraft-landing:before {
   content: "\e95b";
@@ -306,6 +307,7 @@
 }
 .icon-aircraft:before {
   content: "\e95d";
+  color: black
 }
 .icon-align-bottom:before {
   content: "\e95e";
@@ -363,6 +365,7 @@
 }
 .icon-book:before {
   content: "\e970";
+  color:rgb(240, 140, 93);
 }
 .icon-bowl:before {
   content: "\e971";
@@ -939,6 +942,7 @@
 }
 .icon-tree:before {
   content: "\ea30";
+  color: rgb(5, 94, 5);
 }
 .icon-trophy:before {
   content: "\ea31";
